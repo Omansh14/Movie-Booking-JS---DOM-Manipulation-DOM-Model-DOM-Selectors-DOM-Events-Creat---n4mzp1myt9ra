@@ -97,16 +97,16 @@ main{
 .seat{
     display: grid;
     place-content: center;
-   
+    /* background-color: pink; */
 }
 .available-seat{
-    background-color: grey;
+    background-color: green;
 }
 .unavailable-seat{
-    background-color: lightcoral;
+    background-color: red;
 }
 .select-seat{
-    background-color:rgb(46, 91, 228);
+    border:4px outset rgb(0, 0, 0);
 }
 
 .d-none{
